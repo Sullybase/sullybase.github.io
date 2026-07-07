@@ -3,12 +3,11 @@ I'm attempting to make my first Godot game which is a platformer for web, mac, a
 
 ---
 
-**Links**
+**Main Links**
 
-[My website: Sullybase](https://sullydux.github.io/sullydux/)    --    [ My Scratch](https://scratch.mit.edu/users/sullydux/)    --    [My friends ASCII generator](https://sullydux.github.io/sullydux/ASCII-studio.html)    --    [My Patreon](https://patreon.com/Sullydux?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
+[My website: Sullybase](https://sullybase.github.io/)    --    [ My Scratch](https://scratch.mit.edu/users/sullydux/)    --    [My Patreon](https://patreon.com/Sullydux?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
 
----
+--- 
 
-**Contact Me**
+**Project Links**
 
-Hi, you can email me [here](https://sullydux.github.io/sullydux/email.html), I might take a day to respond
