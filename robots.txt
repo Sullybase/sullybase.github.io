@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://sullybase.github.io/sitemap.xml
