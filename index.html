@@ -55,8 +55,8 @@
 
     body {
       margin: 0;
-      height: 100vh;
-      overflow: hidden;
+      min-height: 100vh;
+      overflow: auto; /* allow page scrolling so user can scroll out of the card box */
       font-family: ui-rounded, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
         "Apple Color Emoji", "Segoe UI Emoji";
       color: var(--text);
@@ -145,6 +145,8 @@
       font-family: Roboto;
       overflow-y: auto;
       overflow-x: hidden;
+      -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+      overscroll-behavior: auto; /* allow scroll to propagate to page when at edges */
       flex: 1;
       min-height: 0;
       padding-right: 8px;
@@ -381,8 +383,6 @@
             </div>
           </a>
         </article>
-
-
 
         <!-- Secret Warfare -->
         <article class="copy-card">
