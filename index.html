@@ -161,6 +161,41 @@
       padding: 0.65rem 0.75rem;
       transition: transform 0.12s ease, border-color 0.12s ease, background 0.12s ease, box-shadow 0.12s ease;
       box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.28);
+      position: relative;
+    }
+
+    .card-tags {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      max-width: 50%;
+    }
+
+    .tag {
+      font-size: 0.75rem;
+      padding: 0.35rem 0.65rem;
+      border-radius: 4px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+      background: rgba(255, 255, 255, 0.12);
+      color: var(--text);
+    }
+
+    .tag.controller-tested {
+      background: rgba(34, 197, 94, 0.3);
+      color: rgba(134, 239, 172, 0.95);
+      border: 1px solid rgba(34, 197, 94, 0.5);
+    }
+
+    .tag.controller-untested {
+      background: rgba(239, 68, 68, 0.3);
+      color: rgba(254, 202, 202, 0.95);
+      border: 1px solid rgba(239, 68, 68, 0.5);
     }
 
     .card-main-link {
@@ -297,6 +332,12 @@
 
         <!-- Forsaken Legends: Cursed Isle -->
         <article class="copy-card">
+          <div class="card-tags">
+            <span class="tag">Survival</span>
+            <span class="tag">RPG</span>
+            <span class="tag">Pixel Art</span>
+            <span class="tag controller-tested">Controller- tested</span>
+          </div>
           <a class="card-main-link" href="https://sullybase.github.io/Curse/">
             <div class="icon-wrap">
               <img src="curse.png" alt="Forsaken Legends: Cursed Isle icon">
@@ -304,7 +345,7 @@
             <div class="details">
               <h3>Forsaken Legends: Cursed Isle</h3>
               <div class="desc">
-                Enter a pixel art realm. Battle powerful bosses, face off against tough enemies, and befriend characters as you journey through diverse environments. Discover hidden caves, uncover the island’s ancient past, and solve its mysteries. With a rich world full of animals and challenges, your adventure will test your skills at every turn. Will you conquer the unknown?
+                Enter a pixel art realm. Battle powerful bosses, face off against tough enemies, and befriend characters as you journey through diverse environments. Discover hidden caves, uncover the island's ancient past, and solve its mysteries. With a rich world full of animals and challenges, your adventure will test your skills at every turn. Will you conquer the unknown?
               </div>
               <div class="devices">
                 <span>Computer, PC, and Controller</span>
@@ -318,6 +359,11 @@
 
         <!-- Secret Warfare -->
         <article class="copy-card">
+          <div class="card-tags">
+            <span class="tag">Spy</span>
+            <span class="tag">RPG</span>
+            <span class="tag controller-tested">Mobile</span>
+          </div>
           <a class="card-main-link" href="https://sullybase.github.io/Secret/">
             <div class="icon-wrap">
               <img src="secret.png" alt="Secret Warfare icon">
@@ -338,6 +384,10 @@
 
         <!-- Fun Puzzle Games -->
         <article class="copy-card">
+          <div class="card-tags">
+            <span class="tag">Puzzle</span>
+            <span class="tag controller-tested">Mobile</span>
+          </div>
           <a class="card-main-link" href="https://sullybase.github.io/Puzzle/">
             <div class="icon-wrap">
               <img src="puzzle.ico" alt="Fun Puzzle Games icon">
@@ -356,6 +406,13 @@
 
         <!-- The Coin Knight -->
         <article class="copy-card">
+          <div class="card-tags">
+            <span class="tag">RPG</span>
+            <span class="tag">Survival</span>
+            <span class="tag">Platformer</span>
+            <span class="tag controller-tested">Best start point</span>
+            <span class="tag controller-untested">Controller- untested</span>
+          </div>
           <a class="card-main-link" href="https://sullybase.github.io/Coin/">
             <div class="icon-wrap">
               <img src="coin.png" alt="The Coin Knight icon">
@@ -366,7 +423,7 @@
                 Explore a handcrafted pixel art world filled with challenges and hidden secrets. Coins are scattered throughout the world, waiting to be collected. There are scattered flags that act as checkpoints. Save the realm from the slimes and their boss. All of the citizens flee from their presence, so expect to be unaided. Reclaim the looted coins. Restore the kingdom!
               </div>
               <div class="devices">
-                <span>Computer, PC, and Controller(untested)</span>
+                <span>Computer, PC, and Controller</span>
                 <a class="meta-link" href="https://sullybase.github.io/Coin/RM/" target="_blank" rel="noreferrer">README</a>
                 <a class="meta-link" href="https://www.patreon.com/collection/2257757" target="_blank" rel="noreferrer">MacOS & Windows app download</a>
               </div>
