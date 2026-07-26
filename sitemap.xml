@@ -83,5 +83,11 @@
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
+	<url>
+		<loc>https://sullybase.github.io/KSP/</loc>
+		<lastmod>2026-07-26</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
 
 </urlset>
