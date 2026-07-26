@@ -1,3 +1,4 @@
-Sitemap: https://sullybase.github.io/sitemap.xml
 User-agent: *
 Allow: /
+
+Sitemap: https://sullybase.github.io/sitemap.xml
