@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZDM8E7H6B"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-KZDM8E7H6B');
+	</script>
+<title>404 — Page Not Found | Sullybase</title>
+<meta property="og:title" content="404 — Page Not Found | Sullybase">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<meta property="og:image" content="https://sullybase.github.io/favicon.ico">
+<meta name="description" content="This page doesn't exist. Head back to Sullybase.">
+<meta property="og:description" content="This page doesn't exist. Head back to Sullybase.">
+<meta name="author" content="Sullydux">
+<meta name="robots" content="noindex,follow">
+<meta property="og:type" content="website">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #070914;
+  --panel: #0c1022;
+  --panel-strong: #0b132b;
+  --text: #eaf0ff;
+  --muted: rgba(234, 240, 255, 0.72);
+  --accent: #fbbf24;
+  --accent-2: #60a5fa;
+  --border: rgba(234, 240, 255, 0.18);
+  --border-strong: rgba(36, 158, 251, 0.55);
+  --shadow: 10px 10px 0 rgba(0, 0, 0, 0.35);
+  --radius-lg: 10px;
+  --radius-md: 8px;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: ui-rounded, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  color: var(--text);
+  background:
+    radial-gradient(circle at 12px 18px, rgba(255, 255, 255, 0.24) 1px, transparent 2px),
+    radial-gradient(circle at 54px 44px, rgba(255, 255, 255, 0.20) 1px, transparent 2px),
+    radial-gradient(circle at 94px 22px, rgba(255, 255, 255, 0.18) 1px, transparent 2px),
+    radial-gradient(circle at 22px 92px, rgba(255, 255, 255, 0.16) 1px, transparent 2px),
+    radial-gradient(circle at 78px 78px, rgba(255, 255, 255, 0.14) 1px, transparent 2px),
+    radial-gradient(circle at 35px 110px, rgba(251, 191, 36, 0.14) 1px, transparent 3px),
+    radial-gradient(circle at 110px 30px, rgba(96, 165, 250, 0.12) 1px, transparent 3px),
+    linear-gradient(180deg, #03040a, var(--bg));
+  background-size: 120px 120px, 140px 140px, 160px 160px, 185px 185px, 210px 210px, 260px 260px, 320px 320px, auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+.panel {
+  width: min(640px, 100%);
+  background: var(--panel);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+.title-lockup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+.title-lockup img {
+  width: 56px;
+  height: 56px;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 8px 0 rgba(0, 0, 0, 0.35));
+}
+h1 {
+  margin: 0;
+  font-size: clamp(2.2rem, 8vw, 3.2rem);
+  letter-spacing: -0.01em;
+  font-family: "Segoe UI";
+  color: var(--accent);
+}
+.subtitle {
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+.subtitle::before {
+  content: "> ";
+  color: rgba(36, 176, 251, 0.95);
+}
+.desc {
+  margin: 1rem auto 2rem;
+  max-width: 46ch;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: Roboto, sans-serif;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+.links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--panel-strong);
+  border: 2px solid rgba(234, 240, 255, 0.16);
+  border-radius: var(--radius-md);
+  padding: 0.6rem 1rem;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-family: Roboto, sans-serif;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.28);
+  transition: transform 0.12s ease, border-color 0.12s ease, background 0.12s ease, box-shadow 0.12s ease;
+}
+.links a:hover,
+.links a:focus-visible {
+  transform: translate(-1px, -1px);
+  border-color: var(--border-strong);
+  background: #0d1a37;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.28);
+}
+.links a.home {
+  border-color: rgba(251, 191, 36, 0.5);
+}
+@media (max-width: 480px) {
+  .panel { padding: 1.75rem 1.25rem; }
+  .links { flex-direction: column; }
+  .links a { justify-content: center; }
+}
+</style>
+</head>
+<body>
+<div class="panel">
+  <div class="title-lockup">
+    <img src="/favicon.ico" alt="Sullybase favicon">
+    <h1>404</h1>
+  </div>
+  <p class="subtitle">Page not found</p>
+  <p class="desc">
+    Looks like this coin wasn't where the map said it'd be. The page you're looking for doesn't exist or has moved.
+  </p>
+  <div class="links">
+    <a class="home" href="/">Home</a>
+    <a href="https://github.com/sullybase" target="_blank" rel="noreferrer">GitHub</a>
+    <a href="https://www.patreon.com/cw/Sullydux" target="_blank" rel="noreferrer">Patreon</a>
+    <a href="https://www.reddit.com/r/Sullybase/" target="_blank" rel="noreferrer">Reddit</a>
+    <a href="https://scratch.mit.edu/users/sullydux/" target="_blank" rel="noreferrer">Scratch</a>
+    <a href="https://sullydux.github.io/sullydux/email.html" target="_blank" rel="noreferrer">Email</a>
+  </div>
+</div>
+</body>
+</html>
